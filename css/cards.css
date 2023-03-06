@@ -61,14 +61,19 @@
   display: inherit;
 }
 
-@media (max-width: 1200px ) {
+@media (max-width: 1200px) {
   #main {
     display: flex;
     flex-direction: column;
   }
-  
+
   .card-container {
     width: 100%;
-  } 
-  
+  }
+}
+
+@media (max-width: 600px) {
+  .card p {
+    display: none;
+  }
 }
